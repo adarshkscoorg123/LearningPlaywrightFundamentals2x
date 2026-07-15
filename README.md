@@ -57,14 +57,36 @@ npx playwright show-report
 .
 ├── tests/
 │   ├── 01_Basics/                    # Test anatomy, annotations (skip/only/fail/slow)
-│   ├── 02_First_tests/               # Browser → Context → Page (BCP) hierarchy
-│   ├── 03_Locators_Commands/ … 23_Advance_Framework/   # Curriculum modules (scaffolded, WIP)
+│   ├── 02_first_tests/               # Browser → Context → Page (BCP) hierarchy
+│   ├── 03_Locators_Commands/         # Lazy locators, built-in locators, navigation options
+│   ├── 04_Session_Storage/           # Session/local storage handling
+│   ├── 05_Allure_Reporting/          # Allure report integration
+│   ├── 06_Multiple_Element/          # Handling multiple elements
+│   ├── 07_WebTables/                 # Web table interactions
+│   ├── 08_Web_Select_Frames_Iframe/  # Web selects, frames & iframes
+│   ├── 09_Frame_Iframe/              # Frame & iframe handling
+│   ├── 10_Keyboard_Hover_Drag_Drop/  # Keyboard, hover & drag-drop actions
+│   ├── 11_JS_Alerts/                 # JS alert/confirm/prompt handling
+│   ├── 12_Handle_SVG/                # SVG element interactions
+│   ├── 13_Shadow_DOM/                # Shadow DOM traversal
+│   ├── 14_FileUpload/                # File upload scenarios
+│   ├── 15_File_Download/             # File download scenarios
+│   ├── 16_Scroll_toElement/          # Scroll & element visibility
+│   ├── 17_Expect_Assertions/         # Playwright expect assertions
+│   ├── 18_Test_hooks/                # before/after hooks
+│   ├── 19_Data_Driven_Testing/       # Parameterized / data-driven tests
+│   ├── 20_Page_Object_Model/         # Page Object Model pattern
+│   ├── 21_Fixture/                   # Custom fixtures
+│   ├── 22_Misc_Concepts/             # Miscellaneous concepts
+│   ├── 23_Advance_Framework/         # Advanced framework patterns
 │   ├── Template.spec.ts              # Empty spec scaffold, copy for new tests
 │   └── example.spec.ts               # Sample: title check + "Get started" navigation
 ├── playwright.config.ts    # Playwright configuration
 ├── package.json
 └── .gitignore
 ```
+
+> **Note:** Folders 03–23 are scaffolded (`.gitkeep` only) and will be populated as the course progresses. Modules 01–02 contain the working specs.
 
 ## What's Inside
 
