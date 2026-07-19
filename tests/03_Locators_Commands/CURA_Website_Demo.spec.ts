@@ -34,7 +34,7 @@ test("Verify the locators for Herokuapp make appointment flow.", async ({ page }
     await visitDate.fill('18/07/2026');
 
     let comment = page.locator("//textarea[@id ='txt_comment']");
-    await comment.fill('I am booking appointment for myself');
+    await comment.pressSequentially("I am booking appointment for myself", { delay: 200 });
     await page.pause();
 
     let bookAppointmentBtn = page.locator("//button[@id ='btn-book-appointment']");
