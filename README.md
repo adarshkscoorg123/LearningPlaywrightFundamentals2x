@@ -86,7 +86,7 @@ npx playwright show-report
 └── .gitignore
 ```
 
-> **Note:** Most folders are scaffolded (`.gitkeep` only) and will be populated as the course progresses. Modules 01–11 contain working specs.
+> **Note:** Most folders are scaffolded (`.gitkeep` only) and will be populated as the course progresses. Modules 01–16 contain working specs.
 
 ## What's Inside
 

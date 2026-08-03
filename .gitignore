@@ -12,3 +12,6 @@ allure-results/
 
 # Session
 user-session.json
+
+# Test artifacts
+/out/
