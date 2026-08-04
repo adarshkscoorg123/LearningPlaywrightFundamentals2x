@@ -53,8 +53,6 @@ test.describe('Scroll to Element - TestingAcademy', () => {
         const finalCount = await list.count();
         console.log(finalCount);
 
-
-
     });
 
 });
