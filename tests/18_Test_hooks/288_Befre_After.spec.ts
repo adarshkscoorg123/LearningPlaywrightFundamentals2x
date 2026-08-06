@@ -6,7 +6,7 @@ test.beforeAll(async () => {
 });
 
 test.beforeEach(async ({ page }) => {
-    // run before every test — e.g. log in, seed cookies
+    // run before every test case— e.g. log in, seed cookies
     await page.goto('https://app.thetestingacademy.com/playwright/');
 });
 
@@ -25,7 +25,17 @@ test.afterEach(async ({ page }, testInfo) => {
     }
 });
 
-
 test.afterAll(async () => {
     console.log('afterAll — tear down');
 });
+
+// 1.First beforeAll will run
+// 2.secondly beforeEach will run
+// 3.first test case will run
+// 4.AfterEach will run
+// 5.beforeEach will run
+// 6.Second test case will run
+// 7.AfterEach will run
+// 8.lastly afterAll will run
+
+
